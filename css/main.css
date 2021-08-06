@@ -1,0 +1,114 @@
+main {
+  background-color: var(--off-white);
+}
+.main--exchangeContainer {
+  display: block;
+  width: 90%;
+  padding: 15px;
+
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+
+.main--exchangeContainer-title {
+}
+
+.main--exchangeContainer-title h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  color: var(--warm-black);
+}
+
+.main--exchangeContainer-title p {
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #757575;
+}
+
+.backgroundImg {
+  height: 200px;
+  width: 200px;
+  background-image: url("../assets/imgs/Bitcoin.svg");
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* table */
+
+.infoTable {
+  display: grid;
+  width: 250px;
+  border-radius: 4px;
+  height: 160;
+  background-color: var(--off-white);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0.3px;
+}
+
+.infoName,
+.infoPrice {
+  padding: 10px 12px;
+  background-color: var(--just-white);
+  border-radius: 5px;
+}
+
+.infoPrice {
+}
+
+.down span {
+  display: inline-block;
+  background-image: url("../assets/icons/down.svg");
+  height: 6px;
+  width: 11px;
+  margin-left: 10px;
+}
+
+.up span {
+  display: inline-block;
+  background-image: url("../assets/icons/up.svg");
+  height: 6px;
+  width: 11px;
+  margin-left: 10px;
+}
+
+.infoUpdate {
+  margin-top: 1rem;
+  background-color: var(--soft-orange);
+  padding: 8px;
+  width: 250px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.infoUpdate p {
+  display: inline-block;
+}
+
+.infoUpdate span {
+  font-weight: bold;
+}
+
+.infoContainer h3 {
+  color: #ff9536;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.infoContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
