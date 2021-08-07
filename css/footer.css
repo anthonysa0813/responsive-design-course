@@ -1,0 +1,45 @@
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--bitcoin-orange);
+}
+
+.footer-batataLogo {
+  /* border: 1px solid green; */
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.batataCorporation {
+  display: block;
+  height: 24px;
+  width: 40px;
+  background-image: url("../assets/icons/batata.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social-footer {
+  /* border: 1px solid green; */
+  width: 200px;
+}
+
+.social-footer li a {
+  color: var(--just-white);
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.social-footer li {
+  text-align: center;
+  list-style: none;
+}

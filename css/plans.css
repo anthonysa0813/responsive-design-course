@@ -1,0 +1,87 @@
+.plansContainer {
+  background-color: hsl(0, 0%, 90%);
+  height: auto;
+  padding: 0.1px;
+}
+
+.wrapper h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.wrapper > p {
+  color: #757575;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.planCard {
+  width: 250px;
+  border: none;
+  border-radius: 0.5rem;
+  height: auto;
+  background-color: var(--just-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.planCard h3 {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.planPrice p {
+  font-size: 52px;
+}
+
+.planPrice {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.planPrice p span {
+  /* color: red; */
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+}
+
+.planCard > p {
+  /* color: red; */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.planCard-suggest {
+  position: absolute;
+  top: -15px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--bitcoin-orange);
+}
+
+.planCard-button {
+  padding: 1rem;
+  border: 2px solid var(--bitcoin-orange);
+  /* border-color: var(--bitcoin-orange); */
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.planCard-button span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url("../assets/icons/arrow-right.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  top: 2px;
+}

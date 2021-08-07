@@ -1,6 +1,9 @@
 @import url("./header.css");
 @import url("./main.css");
 @import url("./details.css");
+@import url("./heroImage.css");
+@import url("./plans.css");
+@import url("./footer.css");
 :root {
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
